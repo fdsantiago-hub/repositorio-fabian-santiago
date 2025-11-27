@@ -1,0 +1,40 @@
+body {
+  background-color:#807A79;
+  
+}
+h1, p {
+  text-align:center;
+  color:black;
+}
+
+.container {
+  display:flex;
+  background-color:black;
+  width:1450px;
+  margin:20px 0;
+  content:center;
+}
+
+.container div{
+  background-color: grey;
+  margin:10px;
+  padding: 20px;
+  font-size:24px;
+  content:center;
+}
+
+footer {
+  
+  background-color: grey;
+  color. white;
+  text-align:center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+
+.social a{
+  color: white;
+  margin: o 1rem;
+  font-size: 1.2rem;
+}
