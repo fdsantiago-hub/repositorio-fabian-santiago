@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-container w3-center logo-section">
+    <div class="w3-padding-64">
+     <img src="img/hersa.png" class="w3-margin w3-circle profile-image" alt="Hersa">
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-block w3-padding-16 nav-button">Más de mi</a>
+      <a href="#work" class="w3-button w3-block w3-padding-16 nav-button">Experiencia</a>
+      <a href="#work" class="w3-button w3-block w3-padding-16 nav-button">Socializar</a>
+      <a href="#contact" class="w3-button w3-block w3-padding-16 nav-button">Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-container about-section">
+    <div class="w3-padding-64 w3-center">
+      <h1 class="about-title">Fabian Santiago</h1>
+      <img src="img/imgprogra.PNG" class="w3-margin w3-circle about-image" alt="Fabian Santiago">
+      <div class="about-text">
+        <p>Que tal, soy Fabian, estudiante de la EBC Tlalnepantla, actualemnte curso la 
+            carrera de comercio, tengo 22 años, anteriormente estuve estudiando la carrera de derecho,
+            estuve trabajando en la compañia Hersa Consultores empresariales, en donde desempeñe el cargo de auxiliar en 
+            Derecho Penal, Derecho Laboral y Materialidad, trabaje durante 3 años, ayudando y apoyando a cualquier equipo que me pusiesen. </p>
+        <p>Soy una persona proactiva, busco soluciones y alternativas para cualquier asunto o problema, siempre veo las 
+            situaciones lo mas positivo que se pueda, me gusta socializar y generar alianzas entre empresas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-container work-section" id="work">
+    <div class="work-padding">
+      <h2>Mi Experiencia</h2>
+      <p>Auxiliar de Derecho Laboral en el despacho Hersa Consultores empresariales.
+        Auxiliar de Derecho Penal en el despacho Hersa Consultores empresariales.
+        Auxiliar de Materialidad en el despacho Hersa Consultores empresariales.
+      </p>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="img/imgHersa.jpeg" class="work-images">
+      </div>
+      <div class="w3-half">
+        <img src="img/imgHersa1.jpg" class="work-images">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="img/imgHersa2.jpg" class="work-images">
+      </div>
+      <div class="w3-half">
+        <img src="img/imgHersa3.jpg" class="work-images">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="img/imgHersa4.jpg" class="work-images">
+      </div>
+      <div class="w3-half">
+        <img src="img/imgHersa5.jpg" class="work-images">
+      </div>
+    </div><br>
+  </div>
+  <div class="w3-half w3-container resume-section">
+    <div class="resume-padding">
+      <h2>Resume</h2>
+      <p>A draft from my CV</p>
+      <div class="w3-container w3-responsive">
+        <table class="resume-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr>
+            <td>2020-2021</td>
+            <td>Auxiliar en Materialidad</td>
+            <td>GRUPO HERSA</td>
+          </tr>
+          <tr>
+            <td>2021-2022</td>
+            <td>Auxiliar en Derecho Laboral</td>
+            <td>GRUPO HERSA</td>
+          </tr>
+          <tr>
+            <td>2022-2023</td>
+            <td>Auxiliar en Derecho Penal</td>
+            <td>GRUPO HERSA</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-container w3-center swing-by-section">
+    <div class="w3-padding-64">
+      <h1>Contactame</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p>Dime cual es tu problema, todo tiene solución.</p>
+      <p>Mexico, CDMX</p>
+      <p>+52 5511389248</p>
+      <p>fabiansantgo@gmail.com</p>
+    </div>
+  </div>
+  <div class="w3-half w3-container contact-section">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">O dejame tu contacto, yo te escribo.</p>
+      <form class="contact-form" action="/action_page.php" target="_blank">
+        <div class="form-section">
+          <label>Name</label>
+          <input type="text" required name="Name">
+        </div>
+        <div class="form-section">
+          <label>Email</label>
+          <input type="text" required name="Email">
+        </div>
+        <div class="form-section">
+          <label>Message</label>
+          <input type="text" required name="Message">
+        </div>
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
